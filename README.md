@@ -16,7 +16,3 @@ logits = model(eeg_features, speech_features_1, speech_features_2)
 ```
 
 Each input tensor must have shape `[batch_size, feature_dim]`.
-
-## Code availability
-
-This repository provides the complete code that will be released for this paper. No additional training or data-processing code is planned for release.
